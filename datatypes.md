@@ -3,12 +3,12 @@
 let firstName = "Nithya";
 let secondName = "Bharathi";
 let fullName = "firstName" + "secondName";
-console.log(fullName);
+console.log(fullName);  //NithyaBharathi
 
 //Number 
 
 let a = 3;
-let b = 4;
+let b = 4; // number
 
 //Boolean
 
@@ -19,16 +19,16 @@ if(val < 10){
 }
 return false;
 }
-console.log(3);
+console.log(3);  // val =  5 (true)
 
 
 //Null 
 
 let a = null;
-console.log(a);
+console.log(a); // null
 
 //undefined 
 
 let car;
 let bike = "pulsar";
-console.log(car);
+console.log(car);  // undefined

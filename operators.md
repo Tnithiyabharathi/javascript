@@ -32,7 +32,7 @@ let name = "bharathi ";
 
  let x = 10;
  let y = 5;
- let z = (x < 4 && y > 6);
+ z = (x < 4 && y > 6);
  console.log(z); // false
 
  //biswise operator 
