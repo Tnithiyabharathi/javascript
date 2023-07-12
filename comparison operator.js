@@ -1,25 +1,35 @@
 //equal to 
-
-const a= 4;
-console.log(a == "5"); //false
+function equal(a){
+    console.log (a === 5);
+}
+equal(5) //true
 
 
 //lessthan and greaterthan 
 
-let x = 5;
-let y = 6;
-console.log(x < y); //true
-console.log(x > y); //false
+function greaterthan(a,b){
+    console.log( a > b);
+}
+greaterthan(4,6); //false
+
+function lessthan(a,b){
+    console.log(a < b);
+}
+lessthan(7,5);//true
 
 
-//Math.min() and Math.max
+//Math.min() and Math.max()
 
-let m = 6;
-let n = 2;
-console.log(Math.min(m, n));
-// 2
+function min(a,b){
+    console.log(Math.min(a,b));
+}
+min(3,5); //3
 
-console.log(Math.max(m,n)); //6
+function max(a,b){
+    console.log(Math.max(a,b));
+}
+max(8,6);//8
+
 
 
 
