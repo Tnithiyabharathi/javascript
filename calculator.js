@@ -1,35 +1,35 @@
-// addition
- let a = 3;
- let b = 4;
- let addition = a + b;
- console.log(addition); // 7
 
- //subtraction
- let x = 5;
- let y = 3;
- let subtraction = x - y; 
- console.log(subtraction);  //2
+//addition
+function add(a, b) {
+    return a + b;
+  }
+  console.log(add(3,4));
 
- //multiply
- let num1 = 5;
- let num2 = 3;
- let multiply = num1 * num2;
- console.log(multiply); //15
+  //subtraction
+  function sub(a,b){
+    return a - b;
+  }
+  console.log(sub(5,2));
+  
+  //multiply
+  function multiply(a,b){
+    return a * b;
+  }
+  console.log(multiply(6,3));
 
- //divition 
-let num3 = 10;
-let num4 = 5;
-let divition = num3 / num4;
-console.log(divition); // 2
-
-//modulus 
-let m = 25;
-let n = 2;
-let modulus = m % n;
-console.log(modulus); // 1
+  //divided
+  function divided(a,b){
+    return a / b;
+  }
+  console.log(divided(15,3));
+  
+  //modulus
+  function modulus(a,b){
+    return a%b;
+  }
+  console.log(modulus(10, 3));  
 
 //increment 
-let increment = 5;
 increment += 5;
 console.log(increment); //10
 
