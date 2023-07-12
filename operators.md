@@ -1,53 +1,56 @@
 //Arithmetic Operator
 
-let a = 5;
-let b = 5 + a;
-console.log(b); // 10
+
+function arthimetic(a){
+ console.log(5 + a);
+arthimetic(4); // 9
 
 //assigment operator
 
-let x = 10;
-  x += 5
-console.log(x); // 15
 
-//comparison operator
+function assigment(a){
+  console.log(a += 5);
+}
+assigment(3);//8
 
-const a = 3, b = 2;
-console.log(a > b); // true 
 
 //string operator
 
 //concatenate 
 
-let name = "nithya ";
-console.log(name + 22);  // nithya 22
+function concatenate(name){
+    console.log(name + 22);
+    }
+    concatenate("nithya");  // nithya 22
 
 //concatenate arrignment
 
-let name = "bharathi ";
- name += 23;
- console.log(name); //bharathi 23;
+function conarr(name){ 
+ console.log(name += 23);
+ }
+ conarr("bharathi" ); //bharathi 23;
 
  //logical operators 
 
- let x = 10;
- let y = 5;
- z = (x < 4 && y > 6);
- console.log(z); // false
+ function logical(x,y){
+       console.log (x < 4 && y > 6);
+       }
+       logical(3,8);//true
 
- //biswise operator 
+ //bitwise operator 
 
-let a = 12; 
-let  b = 25; 
-
-result = a & b; 
-console.log(result); // 8 
+function bitwise(a,b){
+   console.log(a & b);
+   }
+   bitwise(5,1);// 1 
 
 //typeof operator
 
-let m = 34;
-
-console.log(typeof m); //number
+function type(x){
+console.log(typeof x);
+}
+type(4)
+ //number
 
 
 
