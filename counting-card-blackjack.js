@@ -8,7 +8,7 @@ function cc(card) {
     count--;
   }
    console.log(count);
-   //  if(count > 0){
+   //if(count > 0){
    //     return count + " Bet";
    //  }else{
    //     return count + " Hold";
@@ -16,5 +16,5 @@ function cc(card) {
 return count > 0 ? count + " Bet" :count + " Hold";
   // Only change code above this line
 }
-
+ 
 cc(2); cc(3); cc(7); cc('K'); cc('A');
