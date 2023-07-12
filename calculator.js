@@ -30,10 +30,14 @@ function add(a, b) {
   console.log(modulus(10, 3));  
 
 //increment 
-increment += 5;
-console.log(increment); //10
+function increment(a){
+    console.log(a +=4);
+}
+increment(6); //10
 
 //decrement
-let decrement = 10;
-decrement -= 5;
-console.log(decrement); //5
+function decrement(b){
+    console.log(b -= 5);
+} 
+
+decrement(8); //3
