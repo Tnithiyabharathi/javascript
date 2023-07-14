@@ -14,5 +14,5 @@ const houseNames = {
   };
   
   const firstHouseName = houseNames["firstRedHouse"].Names["Boys"];
-  console.log(firstHouseName);
+  console.log(firstHouseName);  //praveen,nivin
   
