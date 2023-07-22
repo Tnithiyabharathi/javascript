@@ -3,7 +3,7 @@ function zeroToTen(num1,num2){
         return [];
     }else{
         const number = zeroToTen(num1, num2 - 1);
-        number.push();
+        number.push(num2);
         return number;
     }
 }
