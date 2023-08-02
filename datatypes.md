@@ -3,7 +3,7 @@
 let firstName = "Nithya";
 let secondName = "Bharathi";
 let fullName = "firstName" + "secondName";
-console.log(fullName);  //NithyaBharathi
+console.log(fullName);  //N
 
 //Number 
 
